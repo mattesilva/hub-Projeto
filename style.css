@@ -1,0 +1,97 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis para cores */
+:root {
+    --verdegrama: #45C372;
+    --branco: #FFFFFF;
+    --cinzaclaro: #D9D9D9;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    background-image: url(./img/melody.jpg);
+    background-size: 410px;
+}
+
+/* Cabeçalho */
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 18px;
+    border-radius: 50%;
+}
+
+/* principal */
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    margin: 6px 0px;
+    font-size: 1.25rem;
+    font-weight: 650;
+    color: var(--preto);
+
+}
+
+main p {
+    max-width: 350px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--branco);
+    font-weight: 1000;
+    background: #ffb4dd;
+    background-color: rgba(255, 176, 244, 0.5);
+    text-decoration: none;
+    color: #ffffff;
+    width: 310px;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+}
+
+/* Links */
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+.container>a {
+    text-decoration: none;
+    background-color: rgb(255, 172, 237);
+    color: #000000;
+    width: 310px;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 15px;
+}
+
+footer img {
+    margin: 0px 10px;
+}
